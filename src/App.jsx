@@ -18,11 +18,11 @@ function App() {
       <BrowserRouter>
         <div>
           <Link to={`/users/${id}`}>Address</Link> |
-          <Link to="/Details">Details</Link> |
+          <Link to={`/details/${id}`}>Details</Link> |
         </div>
         <Routes>
           <Route path="/users/:userid" element={<Address />} />
-          <Route path="/users/:username" element={<Details />} />
+          <Route path="/details/:userid" element={<Details />} />
         </Routes>
       </BrowserRouter>
     </div>
