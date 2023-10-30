@@ -20,7 +20,6 @@ function Details() {
           <ul>
             <li>{user.name}</li>
             <li>{user.email}</li>
-            <li>{user.address}</li>
           </ul>
         </div>
       )}
